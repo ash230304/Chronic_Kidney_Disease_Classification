@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^python - <<'PY'\nimport pandas as pd\nfrom pathlib import Path\np = Path\\('/Users/apple/Downloads/Kidney/Dataset/ckd-dataset-v2\\.csv'\\)\ndf = pd\\.read_csv\\(p\\)\nprint\\(df\\.shape\\)\nprint\\(df\\.columns\\.tolist\\(\\)\\)\nprint\\(df\\.head\\(3\\)\\.to_string\\(\\)\\)\nprint\\('\\\\nDtypes:\\\\n', df\\.dtypes\\)\nprint\\('\\\\nMissing count per col:\\\\n', df\\.isna\\(\\)\\.sum\\(\\)\\.sort_values\\(ascending=False\\)\\.head\\(20\\)\\.to_string\\(\\)\\)\nprint\\('\\\\nUnique target:', df\\.iloc\\[:,-1\\]\\.value_counts\\(dropna=False\\)\\.to_dict\\(\\)\\)\nPY$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

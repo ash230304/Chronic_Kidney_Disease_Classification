@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
+*.pyo
+*.pyc
+*.log
+
+# Generated data — do not commit large processed CSVs
+data/processed/
+
+# Do NOT ignore models/ — pkl and json artifacts should be committed
+# so reviewers can run the app without retraining
